@@ -6,7 +6,7 @@ name: 企鹅读书_Backup
 on:
   workflow_dispatch:
   schedule:
-     - cron: '*/8 * * * *'
+     - cron: '*/7 * * * *'
   watch:
     types: started
 
